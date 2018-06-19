@@ -6,6 +6,7 @@ import { ListComponent } from './list/list.component';
 import { LogoComponent } from './logo/logo.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { TableComponent } from './table/table.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { FooterComponent } from './footer/footer.component';
     ListComponent,
     LogoComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule
